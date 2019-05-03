@@ -11,3 +11,18 @@ http://www.thegeekstuff.com/2011/07/cron-every-5-minutes/
   /sbin/lspci | grep net
 
 
+
+# ubuntu sudo: /etc/sudoers is world writable sudo: no valid sudoers sources found, quitting sudo: unable to initialize policy plugin
+
+Open two ssh sessions to the target server.
+In the first session, get the PID of bash by running:
+
+echo $$
+
+In the second session, start the authentication agent with:
+
+pkttyagent --process (pid from step 2)
+
+Back in the first session, run:
+
+pkexec visudo
