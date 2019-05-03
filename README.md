@@ -12,7 +12,7 @@ http://www.thegeekstuff.com/2011/07/cron-every-5-minutes/
 
 
 
-# ubuntu sudo: /etc/sudoers is world writable sudo: no valid sudoers sources found, quitting sudo: unable to initialize policy plugin
+# 3 ubuntu sudo: /etc/sudoers is world writable sudo: no valid sudoers sources found, quitting sudo: unable to initialize policy plugin
 
 Open two ssh sessions to the target server.
 In the first session, get the PID of bash by running:
