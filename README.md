@@ -26,3 +26,7 @@ pkttyagent --process (pid from step 2)
 Back in the first session, run:
 
 pkexec visudo
+
+# To find the disk usage: 
+
+sudo du -cha --max-depth=1 /var/opt/gitlab/git-data/ | grep -E "G"
