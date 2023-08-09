@@ -1,3 +1,7 @@
+RHEL partition:
+~~~~~~~~~~~~~~~
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/installation_guide/s2-diskpartrecommend-x86
+
 # uni
 # 1 Cron job:
 Cron allows Linux and Unix users to run commands or scripts at a given date and time. You can schedule scripts to be executed periodically. Cron is one of the most useful tool in a Linux or UNIX like operating systems. It is usually used for sysadmin jobs such as backups or cleaning /tmp/ directories and more. The cron service (daemon) runs in the background and constantly checks the /etc/crontab file, and /etc/cron.*/ directories. It also checks the /var/spool/cron/ directory.
